@@ -2,13 +2,15 @@
     "name": "pxt-dfrobot-motor",
     "version": "0.0.0",
     "description": "",
+    "license": "GNU",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/de/pxt-dfrobot-motor-strings.json"
     ],
     "testFiles": [
         "test.ts"
