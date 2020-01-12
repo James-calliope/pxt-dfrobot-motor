@@ -514,10 +514,3 @@ namespace motor {
         }
     }
 }
-basic.showLeds(`
-    . . . . .
-    . # . # .
-    . . . . .
-    # . . . #
-    . # # # .
-    `);
