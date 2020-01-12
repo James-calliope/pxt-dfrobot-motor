@@ -18,5 +18,6 @@
     "license": "GNU",
     "supportedTargets": [
         "microbit"
-    ]
+    ],
+    "preferredEditor": "tsprj"
 }
