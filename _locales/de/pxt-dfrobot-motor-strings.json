@@ -11,5 +11,5 @@
     "motor.stepperTurnDual_42|block": "Dualstepper %stepper|M1_M2 Richtung %direction1|Drehung %trun1|M3_M4 Richtung %direction2|Drehung %trun2",
     "motor.motorStop|block": "Stoppe Motor|%index",
     "motor.motorStopAll|block": "Stoppe alle Motoren",
-    "{id:category}DF-Driver": "DF-Motor",
+    "{id:category}DF-Driver": "DF-Motor"
 }
