@@ -497,7 +497,7 @@ namespace motor {
     /**
 	 * Stop the dc motor.
     */
-    //% weight=75
+    //% weight=85
     //% blockId=motor_motorStop block="Motor stop|%index"
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2 
     export function motorStop(index: Motors) {
@@ -508,7 +508,7 @@ namespace motor {
     /**
 	 * Stop all motors
     */
-    //% weight=74
+    //% weight=84
     //% blockId=motor_motorStopAll block="Motor Stop All"
     export function motorStopAll(): void {
         for (let idx = 1; idx <= 4; idx++) {
