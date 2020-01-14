@@ -17,6 +17,8 @@
  *This is DFRobot:motor user motor and steering control function.
  */
 //% weight=10 color=#DF6721 icon="\uf013" block="DF-Driver"
+//% category="DF-Driver"
+
 namespace motor {
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
@@ -495,7 +497,7 @@ namespace motor {
     /**
 	 * Stop the dc motor.
     */
-    //% weight=20
+    //% weight=75
     //% blockId=motor_motorStop block="Motor stop|%index"
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2 
     export function motorStop(index: Motors) {
@@ -506,7 +508,7 @@ namespace motor {
     /**
 	 * Stop all motors
     */
-    //% weight=10
+    //% weight=74
     //% blockId=motor_motorStopAll block="Motor Stop All"
     export function motorStopAll(): void {
         for (let idx = 1; idx <= 4; idx++) {
